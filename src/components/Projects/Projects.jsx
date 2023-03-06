@@ -2,11 +2,16 @@
 import Project from "./ProjectItem"
 // import ProjectModal from "./ProjectModal"
 import "./projects.css"
+import Imagen1 from '../../assets/work4.jpg'
+import Imagen2 from '../../assets/Quinto.jpg'
+import Imagen3 from '../../assets/Chatroom.jpg'
+import Imagen4 from '../../assets/work1.jpg'
+import Imagen5 from '../../assets/Todo.jpg'
 
 const projects = [
     {
         id:1,
-        image:"src/assets/work4.jpg",
+        image:Imagen1,
         title:"React chat",
         info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, vel.",
         stack:"MERN",
@@ -14,7 +19,7 @@ const projects = [
     },
     {
         id:2,
-        image:"src/assets/Quinto.jpg",
+        image:Imagen2,
         title:"Challenge Quinto Impacto",
         info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, vel.",
         stack:"Java - MySQL - React",
@@ -22,7 +27,7 @@ const projects = [
     },
     {
         id:3,
-        image:"src/assets/Chatroom.jpg",
+        image:Imagen3,
         title:"Chatroom",
         info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, vel.",
         stack:"Node - Express - React",
@@ -31,7 +36,7 @@ const projects = [
     },
     {
         id:4,
-        image:"src/assets/work1.jpg",
+        image:Imagen4,
         title:"React Cart",
         info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, vel.",
         stack:"React",
@@ -39,7 +44,7 @@ const projects = [
     },
     {
         id:4,
-        image:"src/assets/Todo.jpg",
+        image:Imagen5,
         title:"TodoList",
         info:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, vel.",
         stack:"React Native",

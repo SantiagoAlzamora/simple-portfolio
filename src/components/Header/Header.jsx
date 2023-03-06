@@ -1,10 +1,11 @@
 import "./header.css"
+import Logo from '../../assets/LogoMakr-1vTOgO.png'
 
 export default function Header() {
   return (
     <header className="header">
       <div className="header-left" id="inicio">
-        <img src="src/assets/LogoMakr-1vTOgO.png"/>
+        <img src={Logo}/>
       </div>
       <div className="header-right">
         <a href="/#about" className="header-link">About me</a>
