@@ -1,0 +1,50 @@
+.about {
+    margin-top: 3rem;
+    width: 50%;
+}
+
+.title h1 {
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.title h3 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.title h4 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.color-name {
+    color: rgb(104, 204, 171);
+}
+
+.description {
+    font-size: 0.9rem;
+    color: lightgrey;
+}
+
+.social-networks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-networks a {
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 1.5rem;
+    border: 2px solid white;
+    font-size: 0.9rem;
+}
+
+.social-networks a:hover{
+    background-color: white;
+    color: black;
+}

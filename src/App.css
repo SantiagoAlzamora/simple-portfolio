@@ -1,0 +1,21 @@
+:root{
+  --bg-color:rgb(18, 18, 18);
+  --bg-color-soft:rgb(28, 28, 28);
+  --font-primary-color:white;
+  --font-secondary-color:rgb(104, 204, 171);
+  --font-secondary-color-hover:rgb(88, 175, 146);
+}
+
+html { scroll-behavior: smooth; -webkit-scroll-behavior: smooth }
+
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--bg-color);
+  color: var(--font-primary-color);
+}
+.App {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
