@@ -38,7 +38,7 @@ export default function Contact() {
                     </div>
                     <div class="item">
                         <label for="email">EMAIL</label>
-                        <input type="text" name="email" id="email" required={true}/>
+                        <input type="email" name="email" id="email" required={true}/>
                     </div>
                 </div>
                 <div class="full">
